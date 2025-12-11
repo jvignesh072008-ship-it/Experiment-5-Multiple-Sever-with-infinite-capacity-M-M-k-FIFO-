@@ -28,7 +28,7 @@ Reg No:25017014
 slot no:3P1-1
 ```
 
-```import math 
+import math 
  
 arr_time_input = '' 
 while not arr_time_input.strip(): # Loop until a non-empty input is received 
@@ -64,14 +64,16 @@ if(rho<1):
     print("Average waiting time of an object in the system: %0.2f secs"%Ws) 
     print("Average waiting time of an object in the conveyor: %0.2f secs"%Ws) 
     print("Probability that the system is busy: %0.2f" %(rho)) 
-    print("Probability that the system is empty:%0.2f "%(1-rho)) 
+    print("Probability that the system is empty:%0.2f "%(1-rho))
+
 else: 
     print("Warning! Objects overflow will happen in the conveyor") 
-print("-----------------------------------------------------")```
+print("-----------------------------------------------------")
 https://colab.research.google.com/drive/1bybOr-MX2r7gcoNB6j9b2w7xNlqklEqp?usp=sharing
 # Output
 
-<img width="587" height="284" alt="Screenshot 2025-12-11 180718" src="https://github.com/user-attachments/assets/b2a8b2d2-ef00-41e7-84b3-d5eadf8e723f" />
+<img width="587" height="284" alt="Screenshot 2025-12-11 180718" src="https://github.com/user-attachments/assets/54023841-1000-4691-b96f-0381a72799f5" />
+
 
 # Result
        The average number of material in the system and in the conveyor and waiting are  successfully found.
