@@ -22,6 +22,12 @@ This lets us treat the M/M/∞ model as a simple Markov chain and find the distr
 <img width="806" height="297" alt="image" src="https://github.com/user-attachments/assets/e08285b0-8d2d-4b63-8e52-4bf2d065b0ff" />
 
 # Program
+```
+Name:Rougith D
+Reg No:25017014
+slot no:3P1-1
+```
+
 ```import math 
  
 arr_time_input = '' 
@@ -64,7 +70,8 @@ else:
 print("-----------------------------------------------------")```
 https://colab.research.google.com/drive/1bybOr-MX2r7gcoNB6j9b2w7xNlqklEqp?usp=sharing
 # Output
-<img width="587" height="284" alt="Screenshot 2025-12-11 180718" src="https://github.com/user-attachments/assets/2c7bf3a7-e878-420e-b4c5-0fdd952d5f5f" />
+
+<img width="587" height="284" alt="Screenshot 2025-12-11 180718" src="https://github.com/user-attachments/assets/b2a8b2d2-ef00-41e7-84b3-d5eadf8e723f" />
 
 # Result
        The average number of material in the system and in the conveyor and waiting are  successfully found.
