@@ -18,14 +18,29 @@ Queueing shows up everywhere: cafeterias, libraries, banks—anywhere arrivals n
 In an M/M/∞ system, there are infinitely many servers, so every arrival begins service immediately and no one waits. Arrivals follow a Poisson rate λ, and each server provides exponential service with rate μ.
 If there are k customers in the system, then k servers are busy. Each works independently, so the total service-completion rate is the minimum of k exponential clocks, giving an overall departure rate of kμ.
 This lets us treat the M/M/∞ model as a simple Markov chain and find the distribution of the number of customers in service.
+
 # Algorithm
-<img width="806" height="297" alt="image" src="https://github.com/user-attachments/assets/e08285b0-8d2d-4b63-8e52-4bf2d065b0ff" />
+```
+
+
+
+
+
+
+
+
+
+
+```
 
 # Program
 ```
-Name:Rougith D
-Reg No:25017014
-slot no:3P1-1
+Name:Vignesh J
+
+Reg No:25014705
+
+Slot Name: 4J3-1
+
 ```
 ```
 import math 
@@ -70,12 +85,15 @@ else:
     print("Warning! Objects overflow will happen in the conveyor") 
 print("-----------------------------------------------------")
 ```
-https://colab.research.google.com/drive/1bybOr-MX2r7gcoNB6j9b2w7xNlqklEqp?usp=sharing
+
 # Output
 
 <img width="587" height="284" alt="Screenshot 2025-12-11 180718" src="https://github.com/user-attachments/assets/54023841-1000-4691-b96f-0381a72799f5" />
 
 
 # Result
-       The average number of material in the system and in the conveyor and waiting are  successfully found.
+```
+
+
+```
 
